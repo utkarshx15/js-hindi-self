@@ -38,3 +38,42 @@ let someNumber = 33
 let StringNumber = String(someNumber)
 console.log(StringNumber)
 console.log(typeof StringNumber)
+
+// ********** operations ***********
+
+let proValue = 3 
+let negValue = -proValue
+console.log(negValue)
+
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**3)
+console.log(2/3)
+console.log(2%3)
+
+let str1 = "Hello"
+let str2 = " Utkarsh"
+let str3 = str1 + str2
+console.log(str3)
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 + 2)
+console.log(1 + 2 + "2")
+
+console.log(+true)
+// we will get answer as 1 but without use of + we will get ans as true
+// but if we write true+ then code will not run.
+
+console.log(+"")
+// as we already know that the answer of " " in boolean we get it as 0 so that + directly converted into 0
+
+// we can also consider some variables like that 
+let Num1 , Num2 , Num3
+Num1 = Num2 = Num3 = 2 + 2
+
+let GameCounter = 100
+GameCounter++;
+console.log(GameCounter);
+// as we know about prefix and postfix , if we write ++ before it so it will increase but if we write it later we will get it as orginal...
